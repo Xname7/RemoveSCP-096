@@ -34,6 +34,7 @@
     <WarningLevel>4</WarningLevel>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <PlatformTarget>x64</PlatformTarget>
+	<DocumentationFile>bin\Release\RemoveSCP_096.xml</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="PluginAPI" HintPath="$(MISTAKEN_REFERENCES)\PluginAPI.dll" />
