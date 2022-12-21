@@ -7,8 +7,8 @@
     <ProjectGuid>{86F8F797-F942-441F-B155-F7EACDEEB203}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Mistaken.RemoveSCP_096</RootNamespace>
-    <AssemblyName>Mistaken.RemoveSCP_096</AssemblyName>
+    <RootNamespace>RemoveSCP_096</RootNamespace>
+    <AssemblyName>RemoveSCP_096</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <LangVersion>9.0</LangVersion>
     <FileAlignment>512</FileAlignment>
@@ -24,6 +24,7 @@
     <WarningLevel>4</WarningLevel>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <PlatformTarget>x64</PlatformTarget>
+    <DocumentationFile>bin\Debug\RemoveSCP_096.xml</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <Optimize>true</Optimize>

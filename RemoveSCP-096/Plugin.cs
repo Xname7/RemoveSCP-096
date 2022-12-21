@@ -2,7 +2,7 @@
 using PluginAPI.Core.Attributes;
 using PluginAPI.Enums;
 
-namespace Mistaken.RemoveSCP_096
+namespace RemoveSCP_096
 {
     internal sealed class Plugin
     {
@@ -19,6 +19,6 @@ namespace Mistaken.RemoveSCP_096
             _harmony.UnpatchAll();
         }
 
-        private static readonly Harmony _harmony = new("mistaken.rscp096.patch");
+        private static readonly Harmony _harmony = new("com.rscp096.patch");
     }
 }

@@ -4,7 +4,7 @@ using PlayerRoles.RoleAssign;
 using System.Collections.Generic;
 using System.Reflection.Emit;
 
-namespace Mistaken.RemoveSCP_096
+namespace RemoveSCP_096
 {
     [HarmonyPatch(typeof(ScpSpawner), nameof(ScpSpawner.SpawnableScps), MethodType.Getter)]
     internal static class ScpSpawnerSpawnableScpsPatch
